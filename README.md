@@ -1,2 +1,2 @@
 # carabid-traits
-A project to examine interesting carabid traits within the network
+A project to examine interesting continental-scale carabid traits within North America
