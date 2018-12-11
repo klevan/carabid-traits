@@ -1,0 +1,64 @@
+---
+fontsize: 11pt
+geometry: margin=1in, includefoot, top=1in, bottom=1in
+header-includes:
+- \usepackage{lineno}
+- \usepackage[T1]{fontenc}
+- \usepackage[sc]{mathpazo}
+- \usepackage{textcomp}
+- \usepackage{inconsolata}
+- \usepackage[labelfont={bf}, margin=1cm]{caption}
+- \usepackage{cite}
+- \usepackage{float}
+linkcolor: black
+mainfont: Calibri
+bibliography: references.bib
+csl: ecology.csl
+output:
+  pdf_document:
+    fig_caption: yes
+    fig_width: 4
+    latex_engine: xelatex
+    number_sections: yes
+  html_document: default
+  word_document: default
+---
+```{r setup, echo=FALSE, message=FALSE}
+#Set working directory and file paths
+rm(list=ls())
+options(stringsAsFactors = FALSE)  
+
+# Add your file paths
+if (file.exists(
+  "C:/Users/klevan/Desktop")){
+  wdir <- "C:/Users/klevan/Desktop/IACUC" 
+  myPathToData <- paste(wdir, "data", sep = "/")
+  myPathToOrgIPT <- "~/GitHub/organismalIPT"
+}
+
+# check for case that wdir is not defined properly...
+if ( ! exists("wdir")){ stop('wdir is not defined')}
+
+# Libraries
+
+```
+
+```{r myVariables, echo=FALSE}
+## set variables      
+
+```
+
+<!--@Luff1975 is how you cite a paper-->
+
+\linenumbers
+
+
+
+# Abstract
+# Introduction
+# Methods
+# Results
+# Discussion
+# References
+
+\footnotesize
