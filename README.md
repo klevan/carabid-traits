@@ -1,2 +1,2 @@
-# carabid-traits
-A project to examine interesting continental-scale carabid traits within North America
+# Invert traits: a database for invertebrate traits
+This project will collate trait data for invertebrates from a variety of publications. Initially, the focus will be on sentinel taxa represented by the NEON invertebrate collection program. 
